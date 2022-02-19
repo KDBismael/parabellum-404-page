@@ -22,20 +22,20 @@ body{
             margin:1.6rem 0;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            .contact-btn{
+            a{
+                text-decoration: none;
                 justify-self: end;
                 align-self: center;
-                margin-left: 0.5rem;
-                width: 166px;
-                height: 43px;
-                border: 1px solid black;
-                background: #000000;
-                border-radius: 6px;
-                display: grid;
-                place-items: center;
-                cursor: pointer;
-                a{
-                    text-decoration: none;
+                .contact-btn{
+                    margin-left: 0.5rem;
+                    width: 166px;
+                    height: 43px;
+                    border: 1px solid black;
+                    background: #000000;
+                    border-radius: 6px;
+                    display: grid;
+                    place-items: center;
+                    cursor: pointer;
                     span{
                         font-family: 'Raleway';
                         font-weight: 600;
@@ -70,18 +70,18 @@ body{
                 height: 56px;
                 color: #000000;
             }
-            .go-back-btn{
-                margin-top: 1.5rem;
-                border: 1px solid black;
-                background: #000000;
-                border-radius: 6px;
-                width: 202px;
-                height: 43px;
-                display: grid;
-                place-items: center;
-                cursor: pointer;
-                a{
-                    text-decoration: none;
+            a{
+                text-decoration: none;
+                .go-back-btn{
+                    margin-top: 1.5rem;
+                    border: 1px solid black;
+                    background: #000000;
+                    border-radius: 6px;
+                    width: 202px;
+                    height: 43px;
+                    display: grid;
+                    place-items: center;
+                    cursor: pointer;
                     span{
                         font-family: Raleway;
                         font-weight: 700;

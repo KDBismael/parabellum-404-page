@@ -32,11 +32,16 @@ body .wrapper .header {
       grid-template-columns: 1fr 1fr;
 }
 
-body .wrapper .header .contact-btn {
+body .wrapper .header a {
+  text-decoration: none;
   -ms-grid-column-align: end;
       justify-self: end;
-  -ms-grid-row-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
       align-self: center;
+}
+
+body .wrapper .header a .contact-btn {
   margin-left: 0.5rem;
   width: 166px;
   height: 43px;
@@ -49,11 +54,7 @@ body .wrapper .header .contact-btn {
   cursor: pointer;
 }
 
-body .wrapper .header .contact-btn a {
-  text-decoration: none;
-}
-
-body .wrapper .header .contact-btn a span {
+body .wrapper .header a .contact-btn span {
   font-family: 'Raleway';
   font-weight: 600;
   font-size: 16px;
@@ -92,7 +93,11 @@ body .wrapper .text-item p {
   color: #000000;
 }
 
-body .wrapper .text-item .go-back-btn {
+body .wrapper .text-item a {
+  text-decoration: none;
+}
+
+body .wrapper .text-item a .go-back-btn {
   margin-top: 1.5rem;
   border: 1px solid black;
   background: #000000;
@@ -105,11 +110,7 @@ body .wrapper .text-item .go-back-btn {
   cursor: pointer;
 }
 
-body .wrapper .text-item .go-back-btn a {
-  text-decoration: none;
-}
-
-body .wrapper .text-item .go-back-btn a span {
+body .wrapper .text-item a .go-back-btn span {
   font-family: Raleway;
   font-weight: 700;
   font-size: 16px;
