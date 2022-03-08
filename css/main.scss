@@ -18,7 +18,11 @@ body{
         min-width:700px;
         max-width: 1500px;
         max-height: 800px;
+        display: grid;
+        place-items: center;
         .header{
+            width: 100%;
+            align-self: end;
             margin:1.6rem 0;
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -47,15 +51,14 @@ body{
                 }
             }
         }
-        .item{
-            text-align: center;
-            img{
-                height: auto;
-                width: 596px;
-                object-fit: cover;
-            }
+        .svg{
+            height: auto;
+            min-height: 270px;
+            width: 450px;
+            object-fit: cover;
         }
         .text-item{
+            align-self: start;
             text-align: center;
             margin-top: 1rem;
             display: grid;

@@ -22,9 +22,15 @@ body .wrapper {
   min-width: 700px;
   max-width: 1500px;
   max-height: 800px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
 }
 
 body .wrapper .header {
+  width: 100%;
+  -ms-grid-row-align: end;
+      align-self: end;
   margin: 1.6rem 0;
   display: -ms-grid;
   display: grid;
@@ -63,18 +69,17 @@ body .wrapper .header a .contact-btn span {
   color: #FFFFFF;
 }
 
-body .wrapper .item {
-  text-align: center;
-}
-
-body .wrapper .item img {
+body .wrapper .svg {
   height: auto;
-  width: 596px;
+  min-height: 270px;
+  width: 450px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 body .wrapper .text-item {
+  -ms-grid-row-align: start;
+      align-self: start;
   text-align: center;
   margin-top: 1rem;
   display: -ms-grid;
